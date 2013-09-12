@@ -16,6 +16,7 @@
 		D0CCE97C17E1FFC1001CCE6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CCE97B17E1FFC1001CCE6A /* Default.png */; };
 		D0CCE97E17E1FFC1001CCE6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CCE97D17E1FFC1001CCE6A /* Default@2x.png */; };
 		D0CCE98017E1FFC1001CCE6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CCE97F17E1FFC1001CCE6A /* Default-568h@2x.png */; };
+		D0CCE98D17E20488001CCE6A /* mainviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCE98C17E20488001CCE6A /* mainviewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		D0CCE97B17E1FFC1001CCE6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D0CCE97D17E1FFC1001CCE6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D0CCE97F17E1FFC1001CCE6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0CCE98B17E20488001CCE6A /* mainviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainviewController.h; sourceTree = "<group>"; };
+		D0CCE98C17E20488001CCE6A /* mainviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainviewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 		D0CCE96F17E1FFC1001CCE6A /* Suara Hewan */ = {
 			isa = PBXGroup;
 			children = (
+				D0CCE98917E20488001CCE6A /* library */,
+				D0CCE98A17E20488001CCE6A /* view */,
 				D0CCE97817E1FFC1001CCE6A /* Suara_HewanAppDelegate.h */,
 				D0CCE97917E1FFC1001CCE6A /* Suara_HewanAppDelegate.m */,
 				D0CCE97017E1FFC1001CCE6A /* Supporting Files */,
@@ -97,6 +102,22 @@
 				D0CCE97F17E1FFC1001CCE6A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CCE98917E20488001CCE6A /* library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		D0CCE98A17E20488001CCE6A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCE98B17E20488001CCE6A /* mainviewController.h */,
+				D0CCE98C17E20488001CCE6A /* mainviewController.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +188,7 @@
 			files = (
 				D0CCE97617E1FFC1001CCE6A /* main.m in Sources */,
 				D0CCE97A17E1FFC1001CCE6A /* Suara_HewanAppDelegate.m in Sources */,
+				D0CCE98D17E20488001CCE6A /* mainviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
